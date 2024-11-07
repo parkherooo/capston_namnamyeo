@@ -1,0 +1,120 @@
+@import 'input.css';
+@import 'style.css';
+
+.left_meterial {
+    display: flex;
+    margin-right: 35px;
+    justify-content: center;
+	animation: zoomIn;
+    animation-duration: 1s;
+}
+
+.left_meterial_img {
+    background-color: white;
+    border-radius: 15%;
+    width: 175px;
+    height: 165px;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.left_meterial_title {
+    margin-top: 35px;
+    margin-left: 25px;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.left_meterial_info {
+    display: flex;
+    flex-direction: column;
+}
+
+.left_meterial_text {
+    margin-top: 5px;
+    margin-left: 25px;
+    width: 250px;
+    height: 120px;
+    background-color: #ffffff;
+    border-radius: 1ch;
+    color: black;
+}
+
+.meterial_list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+	animation: slideInRight;
+    animation-duration: 2s;
+}
+
+.metarial_list-title {
+    margin-left: 340px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.meterial_list-has_metrial {
+    margin-top: 5px;
+    margin-left: 180px;
+    width: 250px;
+    height: 70px;
+    border-radius: 1ch;
+    background-color: #8396b3;
+}
+
+.meterial_list-no_metrial {
+    display: flex;
+    height: 70px;
+}
+
+.meterial_list-no_metrial_box {
+    border-radius: 1ch;
+    background-color: #0a1f3d;
+    margin-top: 5px;
+    width: 250px;
+}
+
+.meterial_list-no_metrial img {
+    margin-left: 110px;
+    width: 70px;
+}
+
+.meterial_list-no_metrial img:hover{
+	animation: rubberBand;
+    animation-duration: 1s;
+}
+
+.cooking_start {
+    border-radius: 1ch;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 300px;
+    height: 80px;
+    background-color: #22344e;
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+a {
+    text-decoration-line: none;
+	color: inherit;
+}
+
+a:hover{
+	text-decoration-line: none;
+	color: inherit;
+}
+
+a:visited {
+	text-decoration-line: none;
+	color: inherit;
+}
+
+.cooking_start:hover {
+    animation: rubberBand;
+    animation-duration: 1s;
+}

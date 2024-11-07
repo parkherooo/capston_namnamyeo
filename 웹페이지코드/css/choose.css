@@ -1,0 +1,61 @@
+@import 'style.css';
+
+.background{
+	background-size: cover;
+}
+
+.title_bar_logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title_bar_logo img {
+    width: 514px;
+}
+
+.input_bar {
+    display: flex;
+	flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.body_logo_img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+	background-size: 100% 100%;
+}
+
+.body_logo_img_one {
+	margin-left: 150px;
+    width: 370px;
+}
+
+.btn-secondary {
+    background-color: #22344e;
+    border-color: #22344e;
+}
+
+.b {
+    margin-top: 40px;
+	margin-right: 290px;
+}
+
+.b:hover{
+	animation: rubberBand;
+    animation-duration: 1s;
+}
+
+.body_bottom_img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.body_bottom_img img {
+    width: 300px;
+}

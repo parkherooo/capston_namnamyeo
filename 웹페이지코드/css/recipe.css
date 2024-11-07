@@ -1,0 +1,33 @@
+@import 'style.css';
+
+.title_bar_logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title_bar_logo img {
+    width: 514px;
+}
+
+.remain {
+    display: flex;
+    margin-right: 35px;
+    justify-content: center;
+}
+
+.remain_info {
+    display: flex;
+    flex-direction: column;
+}
+
+.remain_square {
+    margin-top: 5px;
+    margin-left: 25px;
+    width: 500px;
+    height: 800px;
+    background-color: #22344e;
+    border-radius: 10ch;
+    text-align: center;
+}

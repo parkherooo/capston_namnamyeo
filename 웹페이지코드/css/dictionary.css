@@ -1,0 +1,86 @@
+@import 'input.css';
+@import 'style.css';
+
+.left_meterial {
+    display: flex;
+    margin-right: 35px;
+    justify-content: center;
+}
+
+.left_meterial:hover{
+	animation: shakeX;
+    animation-duration: 1s;
+}
+
+.left_meterial_img {
+    background-color: white;
+    border-radius: 15%;
+    width: 128px;
+    height: 128px;
+    margin-top: 50px;
+    margin-left: 25px;
+}
+
+.left_meterial_title {
+    margin-top: 55px;
+    margin-left: 25px;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.left_meterial_info {
+    display: flex;
+    flex-direction: column;
+}
+
+.left_meterial_text {
+    margin-top: 5px;
+    margin-left: 25px;
+    width: 310px;
+    height: 90px;
+    background-color: #ffffff;
+    border-radius: 1ch;
+    color: black;
+}
+
+.right_meterial {
+    display: flex;
+    margin-left: 35px;
+    justify-content: center;
+}
+
+.right_meterial:hover{
+	animation: shakeX;
+    animation-duration: 1s;
+}
+
+.right_meterial_img {
+    background-color: white;
+    border-radius: 15%;
+    width: 128px;
+    height: 128px;
+    margin-top: 50px;
+    margin-right: 25px;
+}
+
+.right_meterial_title {
+    margin-top: 55px;
+    margin-left: 245px;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.right_meterial_info {
+    display: flex;
+    flex-direction: column;
+}
+
+.right_meterial_text {
+    margin-top: 5px;
+    margin-right: 25px;
+    width: 310px;
+    height: 90px;
+    background-color: #22344e;
+    border-radius: 1ch;
+	text-align: right;
+}
